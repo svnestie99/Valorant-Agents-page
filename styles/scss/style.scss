@@ -1,0 +1,109 @@
+@import 'header.css' ;
+@import 'champions.css' ;
+@import 'main-page.css' ;
+
+$Montserrat: 'Montserrat', sans-serif;
+$DrukWide: 'Druk Wide';
+$black: #1f2326;
+$pink: #ff4656;
+$gray: #505155;
+$white: #ffffff;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  position: relative;
+  background-color: $black;
+  overflow: hidden;
+
+  .rectangle {
+    position: absolute;
+    width: 1107px;
+    height: 1108px;
+    top: -500px;
+    left: -252.5px;
+    background-color: $pink;
+    border-radius: 50%;
+  }
+  .ellipse-46 {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 17px;
+    left: 1618px;
+    background-color: $pink;
+    border-radius: 50%;
+  }
+  .ellipse-42 {
+    position: absolute;
+    width: 134px;
+    height: 135px;
+    top: 61px;
+    left: 1560px;
+    background-color: #efefef;
+    border-radius: 50%;
+  }
+  .ellipse-44 {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    top: 207.5px;
+    left: 1653px;
+    background-color: $gray;
+    border-radius: 50%;
+  }
+  .ellipse-45 {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    top: 620px;
+    right: -100px;
+    background-color: #292c31;
+    border-radius: 50%;
+  }
+  .ellipse-47 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: 920px;
+    left: 230px;
+    background-color: $white;
+    border-radius: 50%;
+  }
+  .ellipse-48 {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 900px;
+    left: 230px;
+    background-color: #505155;
+    border-radius: 50%;
+  }
+}
+
+
+@font-face {
+  font-family: 'Druk Wide';
+  src: url('../../src/fonts/Druk\ Wide\ Bold.eot');
+  src: local('☺'), url('../../src/fonts/Druk Wide Bold.woff') format('woff'),
+    url('../../src/fonts/Druk Wide Bold.ttf') format('truetype'),
+    url('../../src/fonts/Druk Wide Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
