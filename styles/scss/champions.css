@@ -1,0 +1,184 @@
+.champions-stand {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 1350px;
+  top: 120px;
+  height: 700px;
+  background: url(../../src/images/Main-images/background.png);
+  background-size: cover;
+  z-index: 1110;
+  background-color: #ff4656;
+  box-shadow: 10px 10px 80px rgba(0, 0, 0, 0.5);
+}
+.champions-stand .agents {
+  transform: rotate(90deg);
+  position: relative;
+  left: -75px;
+}
+.champions-stand .agents p {
+  font-family: "Druk Wide";
+  font-size: 75px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px #ffffff;
+  letter-spacing: 0.1em;
+}
+.champions-stand .rectangle-129 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 60px;
+  top: 535px;
+  background-color: rgba(31, 35, 38, 0.4941176471);
+  z-index: 3000;
+}
+.champions-stand .rectangle-129 img {
+  width: 22px;
+  height: 22px;
+}
+.champions-stand .logo-line-1 {
+  width: 20px;
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  height: 4px;
+  margin-left: 40px;
+  background-color: rgba(31, 35, 38, 0.4941176471);
+  z-index: 3000;
+}
+.champions-stand .logo-line-2 {
+  width: 40px;
+  position: absolute;
+  left: 20px;
+  top: 580px;
+  height: 4px;
+  margin-left: 40px;
+  background-color: rgba(31, 35, 38, 0.4941176471);
+  z-index: 3000;
+}
+.champions-stand .logo-line-3 {
+  width: 115px;
+  position: absolute;
+  left: 20px;
+  top: 610px;
+  height: 4px;
+  margin-left: 40px;
+  background-color: rgba(31, 35, 38, 0.4941176471);
+  z-index: 3000;
+}
+.champions-stand .logo-line-4 {
+  width: 115px;
+  position: absolute;
+  left: 950px;
+  top: 85px;
+  height: 4px;
+  margin-left: 40px;
+  background-color: rgba(31, 35, 38, 0.4941176471);
+  z-index: 3000;
+}
+.champions-stand .logo-line-5 {
+  width: 5px;
+  position: absolute;
+  top: 250px;
+  left: 20px;
+  height: 5px;
+  margin-left: 40px;
+  background-color: rgba(31, 35, 38, 0.4941176471);
+  z-index: 3000;
+}
+
+.champion {
+  display: flex;
+  position: relative;
+  top: -20px;
+  left: -220px;
+  margin-right: 85px;
+}
+.champion .champion-card {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 203px;
+  height: 450px;
+  background-color: #1f2326;
+  border-radius: 10px 0px 0px 0px;
+  border: 1px solid #1f2326;
+  transition: 0.9s;
+}
+.champion .champion-card img {
+  width: 100%;
+  position: absolute;
+}
+.champion .champion-card .champion-name {
+  position: absolute;
+  width: 30px;
+  z-index: 2000;
+  top: -20px;
+  left: -12px;
+}
+.champion .champion-card .champion-name p {
+  font-family: "Druk Wide";
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 32px;
+  color: transparent;
+  -webkit-text-stroke: 0.5px #ffffff;
+  transform: rotate(90deg);
+  z-index: 1200;
+  transition: 0.9s;
+}
+.champion .spells {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: #1f2326;
+  border: 1px solid #ffffff;
+  bottom: 0;
+  margin: -15px 15px;
+  transition: 0.9s;
+}
+.champion .spells img {
+  width: 30px;
+  margin: 0 10px;
+}
+.champion .country {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 120px;
+  left: -100px;
+  z-index: 2000;
+}
+.champion .country p {
+  height: 25px;
+  width: 250px;
+  font-family: "Druk Wide";
+  font-style: normal;
+  font-size: 11px;
+  color: #ff4656;
+  letter-spacing: 0.1em;
+  -webkit-text-stroke: 0.5px #1f2326;
+}
+.champion:hover .champion-card {
+  background-color: #ffffff;
+  transition: 0.9s;
+}
+.champion:hover .spells {
+  filter: invert(1);
+  transition: 0.9s;
+}
+.champion:hover .champion-name p {
+  font-family: "Druk Wide";
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 32px;
+  color: transparent;
+  -webkit-text-stroke: 1.5px #1f2326;
+  transition: 0.9s;
+}/*# sourceMappingURL=champions.css.map */

@@ -1,0 +1,67 @@
+header {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  width: 1350px;
+  height: 80px;
+  top: 81.5px;
+  z-index: 1111;
+  background: #1f2326;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 10px 10px 80px rgba(0, 0, 0, 0.5);
+}
+header .arrow-down {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border: 2px solid transparent;
+  border-top: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  margin-left: 15px;
+  margin-top: -2px;
+  transform: rotate(135deg);
+}
+header .valorant-logo img {
+  width: 30px;
+  margin-left: 40px;
+}
+header .riotgames-logo img {
+  width: 45px;
+  margin-left: 40px;
+}
+header .header-line {
+  height: 30px;
+  border-left: 1px solid #ffffff;
+  margin-left: 40px;
+}
+header nav {
+  display: flex;
+}
+header nav div {
+  display: flex;
+  align-items: center;
+}
+header a {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 45px;
+  line-height: 17px;
+  font-size: 9.5px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header .profile {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 50px;
+}
+header .profile .profile-nickname {
+  margin-left: -30px;
+}
+header .profile .profile-avatar img {
+  width: 25px;
+  border-radius: 50%;
+  margin-top: 3px;
+}/*# sourceMappingURL=header.css.map */
